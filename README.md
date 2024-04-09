@@ -8,7 +8,9 @@ RUSTFLAGS='-C strip=symbols' cargo build --release
 
 ## How to compile on Alpine linux
 
+```
 apk add gcc
 apk add cc
 apk add build-base
 RUSTFLAGS='-C strip=symbols' cargo build --release
+```
