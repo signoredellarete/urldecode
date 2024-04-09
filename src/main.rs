@@ -1,6 +1,6 @@
 use clap::Parser;
 use clap_stdin::MaybeStdin;
-use url::form_urlencoded::{byte_serialize, parse};
+use url::form_urlencoded::parse;
 
 #[derive(Debug, Parser)]
 struct Args {

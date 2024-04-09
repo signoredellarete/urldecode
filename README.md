@@ -11,3 +11,4 @@ RUSTFLAGS='-C strip=symbols' cargo build --release
 apk add gcc
 apk add cc
 apk add build-base
+RUSTFLAGS='-C strip=symbols' cargo build --release
